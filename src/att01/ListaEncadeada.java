@@ -1,3 +1,5 @@
+package att01;
+
 /**
  * Classe que representa a lista encadeada genérica e seus métodos
  */
@@ -25,7 +27,7 @@ public class ListaEncadeada<T> {
 
     /**
      * Obtém o elemento na posição especificada pelo índice.
-     * Complexidade: O(n) - No pior caso, é necessário percorrer toda a lista
+     * Complexidade: O(n) - att01.No pior caso, é necessário percorrer toda a lista
      * até chegar ao índice desejado, resultando em complexidade linear.
      */
     public T obterEm(int indice) {
@@ -42,7 +44,7 @@ public class ListaEncadeada<T> {
 
     /**
      * Remove a primeira ocorrência do valor especificado da lista.
-     * Complexidade: O(n) - No pior caso, o elemento pode estar no final da lista
+     * Complexidade: O(n) - att01.No pior caso, o elemento pode estar no final da lista
      * ou não existir, exigindo percorrer todos os nós.
      */
     public void removerValor(T dado) {

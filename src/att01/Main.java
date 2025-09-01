@@ -1,3 +1,5 @@
+package att01;
+
 /**
  * Classe principal para testes e validação da Lista Encadeada
  * PARTE 4: Testes e Validação

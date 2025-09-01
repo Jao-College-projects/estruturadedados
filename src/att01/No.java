@@ -1,3 +1,5 @@
+package att01;
+
 public class No<T> {
     T dado;
     No<T> proximo;
