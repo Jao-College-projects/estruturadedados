@@ -9,17 +9,14 @@ public class Main {
 
         System.out.println("--- Análise de Desempenho de Algoritmos de Ordenação em Java ---");
 
-        // Cabeçalho da tabela de resultados
         System.out.println("\n| Tamanho  | Tipo de Lista  | Bubble Sort | Selection Sort | Insertion Sort | Merge Sort | Quick Sort |");
         System.out.println("|----------|----------------|-------------|----------------|----------------|------------|------------|");
 
         for (int size : sizes) {
-            // Arrays de teste
             int[] randomArr = DataGenerator.generateRandomArray(size);
             int[] sortedArr = DataGenerator.generateSortedArray(size);
             int[] reverseArr = DataGenerator.generateReverseSortedArray(size);
 
-            // Rodando e exibindo os resultados em uma linha da tabela
             runTests(size, "Aleatória", randomArr);
             runTests(size, "Ordenada", sortedArr);
             runTests(size, "Invertida", reverseArr);
